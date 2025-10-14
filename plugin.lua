@@ -36,7 +36,7 @@ end
 -- Enum type has Choices i.e. Choices = { list of choice strings } which displays in a combobox
 -- Integer and Double types have a Min (lowest extent) and Max (highest extent) value that needs to be defined
 function GetProperties()
-  props = {}
+  local props = {}
 
   --[[ #include "properties.lua" ]]
 
